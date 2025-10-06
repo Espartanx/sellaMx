@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SellaMx - Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+</style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-white group/design-root overflow-x-hidden">
+
+  <!-- Hero Section con imagen de fondo -->
+  <div class="relative flex min-h-screen flex-col items-center justify-center bg-cover bg-center bg-no-repeat p-4" data-alt="A beautifully finished swimming pool area" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuDFhx81HUAXeZP79-ERXChRD4Yy0iA3DuDx7unvQHPKH8CgKIf-iY4hB1-zJh10b6wBhY9n5daxZ7lGUM57PVDAUSY1O5uHb1ONtG6WOdbEGDPznTLBgrnO4IyXm2o83yn4yftUI3e2uuXogQN4ZOBsBGlm1PlbD2E3I1VTvSjWYKUBA-uuUdK2j7WmEM3xXDmLDycj7WTjjkce8zTihZIVjhgQgAe4YH545DlGf0TiAW-8j7BUS4W1kgBgiV02lf2MhDNcGrn8OFM');">
+    <div class="absolute top-0 left-0 w-full p-4 flex justify-between items-center z-10">
+      <h1 class="text-white text-2xl font-bold">SellaMx</h1>
+      <button class="text-white">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+    <div class="flex flex-col gap-6 text-center text-white max-w-3xl">
+      <div class="flex flex-col gap-2">
+        <h1 class="text-5xl font-black leading-tight tracking-[-0.033em] md:text-7xl">SellaMx</h1>
+        <h2 class="text-lg font-normal leading-normal md:text-xl">Repara, renueva y disfruta.</h2>
+      </div>
+      <div class="flex flex-wrap gap-3 justify-center">
+        <button onclick="window.location.href='sobre.html'" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em]">
+          <span class="truncate">Ver nuestros servicios</span>
+        </button>
+        <button onclick="window.location.href='contactanos.html'" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-background-light text-gray-800 text-base font-bold leading-normal tracking-[0.015em]">
+          <span class="truncate">Contáctanos</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Hero Section -->
+
+  <!-- Sección de bienvenida -->
+  <div class="bg-background-light dark:bg-background-dark py-12 md:py-20">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h1 class="text-[#111418] dark:text-white tracking-light text-3xl font-bold leading-tight pb-4">Bienvenido a SellaMx</h1>
+        <p class="text-[#111418] dark:text-gray-300 text-base font-normal leading-relaxed">
+          una empresa comprometida con la calidad, la durabilidad y la confianza en cada proyecto. Nos especializamos en sellado, pintura y acabados profesionales para hogares, negocios y espacios recreativos. Somos una empresa joven, pero con experiencia y pasión por el detalle. En SellaMx, no solo trabajamos superficies, transformamos espacios. Nos encontramos en Puerto Vallarta y Bahía de Banderas, donde ofrecemos servicio a domicilio y atención personalizada en toda la zona. Nuestro objetivo es claro: ayudarte a reparar, renovar y disfrutar cada espacio de tu hogar o negocio con resultados duraderos y de alta calidad.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Sección de bienvenida -->
+
+</div>
+</body>
+</html>

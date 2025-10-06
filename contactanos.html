@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contactanos - SellaMx</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#137fec",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101922",
+          },
+          fontFamily: {
+            "display": ["Work Sans"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    body {
+      min-height: max(884px, 100dvh);
+    }
+</style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="flex flex-col gap-2 bg-white dark:bg-background-dark p-4 pb-2">
+<div class="flex items-center h-12 justify-between">
+<div class="text-[#111418] dark:text-white flex size-12 shrink-0 items-center" data-icon="List" data-size="24px" data-weight="regular">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</div>
+</div>
+<p class="text-[#111418] dark:text-white tracking-light text-[28px] font-bold leading-tight">SellaMx</p>
+<p class="text-gray-600 dark:text-gray-400 text-base font-normal leading-normal">pasta, Pintura y sellado de una manera profecional</p>
+</div>
+<div class="bg-background-light dark:bg-background-dark py-6">
+<h1 class="text-[#111418] dark:text-white tracking-light text-[32px] font-bold leading-tight px-4 text-center pb-3">Contactanos</h1>
+<p class="text-[#111418] dark:text-gray-300 text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
+            ¿Necesitas una cotización o visita a domicilio? Escríbenos por WhatsApp o Facebook, ¡estamos listos para atenderte en Puerto Vallarta y Bahía de Banderas!
+        </p>
+</div>
+<div class="bg-background-light dark:bg-background-dark">
+<div class="flex justify-center">
+<div class="flex flex-1 gap-3 flex-wrap px-4 py-3 max-w-[480px] justify-center">
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] grow no-underline"
+   href="https://wa.me/525652674928?text=Necesito%20cotizar%20sobre..." target="_blank" rel="noopener">
+<span class="material-symbols-outlined mr-2">sms</span>
+<span class="truncate">WhatsApp</span>
+</a>
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] grow no-underline"
+   href="https://mail.google.com/mail/?view=cm&fs=1&to=sellamx.clientes@gmail.com" target="_blank" rel="noopener">
+<span class="material-symbols-outlined mr-2">email</span>
+<span class="truncate">Email</span>
+</a>
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] grow no-underline"
+   href="https://www.facebook.com/share/175Tkjbv59/" target="_blank" rel="noopener">
+<span class="material-symbols-outlined mr-2">social_leaderboard</span>
+<span class="truncate">Facebook</span>
+</a>
+</div>
+</div>
+</div>
+<div class="bg-background-light dark:bg-background-dark py-4">
+<p class="text-[#111418] dark:text-gray-300 text-base font-normal leading-normal px-4 text-center">numero: +52 565 267 4928</p>
+</div>
+<div class="bg-background-light dark:bg-background-dark p-4">
+<form id="contact-form" class="max-w-md mx-auto" autocomplete="off">
+<div class="space-y-4">
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="name">Nombre</label>
+<input class="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-md text-sm shadow-sm placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-primary focus:border-primary dark:text-white" id="name" name="name" placeholder="tu nombre" required type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="email">correo</label>
+<input class="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-md text-sm shadow-sm placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-primary focus:border-primary dark:text-white" id="email" name="email" placeholder="tucorreo@example.com" required type="email"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="message">Mensaje</label>
+<textarea class="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-md text-sm shadow-sm placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-primary focus:border-primary dark:text-white" id="message" name="message" placeholder="tu mensaje" required rows="4"></textarea>
+</div>
+<div>
+<button class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-bold text-white bg-primary hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary" type="submit">
+                        enviar mensaje
+                    </button>
+</div>
+</div>
+</form>
+</div>
+<div class="h-5 bg-background-light dark:bg-background-dark"></div>
+</div>
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+    const subject = encodeURIComponent('Nuevo mensaje de ' + name);
+    const body = encodeURIComponent('Nombre: ' + name + '\nCorreo: ' + email + '\nMensaje:\n' + message);
+    window.location.href = `mailto:sellamx.clientes@gmail.com?subject=${subject}&body=${body}`;
+});
+</script>
+</body>
+</html>
